@@ -42,6 +42,8 @@
 
 ;;; Code:
 
+(require 'clojure-mode)
+
 (define-derived-mode joker-mode clojure-mode "Joker"
   "Major mode for Joker scripts, wraps the excellent clojure-mode")
 
